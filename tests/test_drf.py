@@ -1,4 +1,5 @@
-from django.test import RequestFactory, TestCase
+from django.test import RequestFactory
+from django.test import TestCase
 
 from rf_django_misc.drf.middleware import MethodOverrideMiddleware
 
