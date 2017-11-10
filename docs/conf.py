@@ -45,7 +45,7 @@ project = 'rf-django-misc'
 year = '2016'
 author = 'René Fleschenberg'
 copyright = '{0}, {1}'.format(year, author)
-version = release = '0.1.1'
+version = release = '0.2.0'
 
 pygments_style = 'trac'
 templates_path = ['.']

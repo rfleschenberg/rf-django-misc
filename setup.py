@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='rf-django-misc',
-    version='0.1.1',
+    version='0.2.0',
     license='BSD',
     description='Miscellaneous things for Django projects',
     long_description='%s\n%s' % (
