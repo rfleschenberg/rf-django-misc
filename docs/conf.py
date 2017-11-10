@@ -2,7 +2,26 @@
 from __future__ import unicode_literals
 
 import os
+import sys
 
+sys.path.insert(0, os.path.abspath('../src/'))
+import django
+from django.conf import settings
+docs_settings = {
+    'INSTALLED_APPS': [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.messages',
+        'django.contrib.staticfiles',
+        'django.contrib.sites',
+        'django.contrib.sitemaps',
+        'rf_django_misc',
+    ],
+}
+settings.configure(**docs_settings)
+django.setup()
 
 extensions = [
     'sphinx.ext.autodoc',

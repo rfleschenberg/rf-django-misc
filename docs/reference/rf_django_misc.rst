@@ -7,3 +7,9 @@ rf_django_misc
 
 .. automodule:: rf_django_misc
     :members:
+
+.. automodule:: rf_django_misc.drf
+    :members:
+
+.. automodule:: rf_django_misc.test
+    :members:
